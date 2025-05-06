@@ -30,8 +30,8 @@ const fs = require("fs");
   });
 
   // Save the extracted data to a JSON file
-  fs.writeFileSync("events.json", JSON.stringify(events, null, 2));
-  console.log("Event data saved to events.json");
+  fs.writeFileSync("club-activities.json", JSON.stringify(events, null, 2));
+  console.log("Event data saved to club-activities.json");
 
   await browser.close();
 })();
